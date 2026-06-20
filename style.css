@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  background: #eaeded;
+  font-family: Arial;
+}
+.navbar-main {
+  background: #131921;
+  color: #fff;
+  padding: 12px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+}
+.search-wrap {
+  display: flex;
+  flex: 1;
+  max-width: 800px;
+}
+.search-wrap input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+.search-wrap select,
+.search-wrap button {
+  border: none;
+  padding: 10px;
+}
+.search-wrap button {
+  background: #febd69;
+}
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+.nav-links a,
+.panel a {
+  color: #fff;
+  text-decoration: none;
+}
+.panel {
+  background: #232f3e;
+  padding: 10px;
+  overflow: auto;
+  white-space: nowrap;
+}
+.panel a {
+  margin-right: 18px;
+}
+.sidebar p,
+.sidebar h3 {
+  font-size: 16px !important;
+  word-break: break-word;
+}
+.product,
+.launchcard,
+.supportcard,
+.cartbox,
+.subtotal,
+.section {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: fit-content;
+  height: fit-content;
+}
+img {
+  max-width: 100%;
+}
+/*footer {
+    margin-top: 40px;
+}*/
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+.foot-panel1:hover {
+    background-color: #485769;
+}
+.foot-panel2 {
+    background-color: #232f3e;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.foot-panel2 ul p {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.foot-panel2 ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+.foot-panel2 ul a {
+    color: #dddddd;
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+.foot-panel2 ul a:hover {
+    text-decoration: underline;
+}
+.foot-panel3 {
+    background-color: #232f3e;
+    border-top: 0.5px solid #485769;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo {
+    width: 90px;
+}
+.foot-panel4 {
+    background-color: #131a22;
+    color: white;
+    height: 80px;
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.pages a {
+    color: #dddddd;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.pages a:hover {
+    text-decoration: underline;
+}
+.copyright {
+    margin-top: 10px;
+    color: #999;
+}
